@@ -1556,6 +1556,34 @@
   resolved "https://registry.npmmirror.com/@ngtools/webpack/-/webpack-17.0.0.tgz#358382da755b781ad8a576e398f94f7ac27d669a"
   integrity sha512-/Bb5MXlphNp3UDsQDa4EB4AwpF4D/plrCPd5YGfVvD43j5g5Rpen+cqz5jai1zfAkF1dPl2qq0nRp/jwmJO3uA==
 
+"@ngxs/form-plugin@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/form-plugin/-/form-plugin-3.8.1.tgz#6cc5844cbe5d3266565939d19c12e573fac2ec84"
+  integrity sha512-oXaQVxNx7IjKNTCjOybFzmKfFO8nrsGlhI98bEjNyMqrahpg9HYECa/fuvcsn3Zr/WH9soyUj+v+lLzje8JuCg==
+  dependencies:
+    tslib "^2.2.0"
+
+"@ngxs/router-plugin@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/router-plugin/-/router-plugin-3.8.1.tgz#7abb0d108640c4d89dfcdbe63ac372cb2e33a928"
+  integrity sha512-nxzcScDsZEgAjI1jD6kO/pAdG3rji8AwZK2DWZKCEE87Y7vUnY2q1Ar+AtaUQasqMwtw4ShRMzt1eBf98vEDUg==
+  dependencies:
+    tslib "^2.2.0"
+
+"@ngxs/storage-plugin@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/storage-plugin/-/storage-plugin-3.8.1.tgz#264b9f6db9ed0c228426f34aefe8bd70bf15bc11"
+  integrity sha512-bMCPuqURMM2LvSdQ9HAI12wT4liB6NaaJvZy8rlixHjFWqjYKvlFUpR0FLxcDmm2TTz2TBFBnoL0wAkyOHAlGA==
+  dependencies:
+    tslib "^2.2.0"
+
+"@ngxs/store@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/store/-/store-3.8.1.tgz#dc4b823fc179149c32ac6158149877dda615abd2"
+  integrity sha512-nbapLdMx+mtnb57BUWXbD6qYfVICv6Rp2NdoGx1++qDbc44ALC49KbF7rSjyPltlExxharAzoNpzO3JuueCP+A==
+  dependencies:
+    tslib "^2.2.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -4056,6 +4084,11 @@ is-plain-object@^2.0.4:
   dependencies:
     isobject "^3.0.1"
 
+is-plain-object@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/is-plain-object/-/is-plain-object-5.0.0.tgz#4427f50ab3429e9025ea7d52e9043a9ef4159344"
+  integrity sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==
+
 is-stream@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/is-stream/-/is-stream-2.0.1.tgz#fac1e3d53b97ad5a9d0ae9cef2389f5810a5c077"
@@ -4790,6 +4823,13 @@ ng-zorro-antd@17.0.0-beta.0:
     date-fns "^2.16.1"
     tslib "^2.3.0"
 
+ngx-auto-unsubscribe-decorator@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/ngx-auto-unsubscribe-decorator/-/ngx-auto-unsubscribe-decorator-1.1.0.tgz#4d7b795805857956b9ee2071e61dc34e59437c8b"
+  integrity sha512-aNlkAaO5SvbKBXvbDHhOpYkcMsUkhZbLRzS8K5GT6ZjJ5HAkiSPHiEclvGn/a8MYkOIwFvNdmp3PyjcoS2eYMw==
+  dependencies:
+    tslib "^2.1.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/nice-napi/-/nice-napi-1.0.2.tgz#dc0ab5a1eac20ce548802fc5686eaa6bc654927b"
@@ -4943,6 +4983,19 @@ object-inspect@^1.9.0:
   version "1.13.1"
   resolved "https://registry.npmmirror.com/object-inspect/-/object-inspect-1.13.1.tgz#b96c6109324ccfef6b12216a956ca4dc2ff94bc2"
   integrity sha512-5qoj1RUiKOMsCCNLV1CBiPYE10sziTsnmNxkAI/rZhiD63CF7IqdFGC/XzjWjpSgLf0LxXX3bDFIh0E18f6UhQ==
+
+object-path-immutable@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npmmirror.com/object-path-immutable/-/object-path-immutable-4.1.2.tgz#d78e3587f03c9a41f83dd6465cfef5a9eb390bb4"
+  integrity sha512-Bfrox46OegMkQXL872EzEjofMyBxk/2hgiy99NkCkYFegn6Dm9FvV2jY2Tnp9qLj2QL0TLii12CuPpzonkjJrA==
+  dependencies:
+    is-plain-object "^5.0.0"
+    object-path "^0.11.8"
+
+object-path@^0.11.8:
+  version "0.11.8"
+  resolved "https://registry.npmmirror.com/object-path/-/object-path-0.11.8.tgz#ed002c02bbdd0070b78a27455e8ae01fc14d4742"
+  integrity sha512-YJjNZrlXJFM42wTBn6zgOJVar9KFJvzx6sTWDte8sWZF//cnjl0BxHNpfZx+ZffXX63A9q0b1zsFiBX4g4X5KA==
 
 obuf@^1.0.0, obuf@^1.1.2:
   version "1.1.2"
@@ -6232,7 +6285,7 @@ tree-kill@1.2.2:
   resolved "https://registry.npmmirror.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-tslib@2.6.2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0:
+tslib@2.6.2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.2.0, tslib@^2.3.0:
   version "2.6.2"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==

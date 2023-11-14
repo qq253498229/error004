@@ -12,6 +12,8 @@ import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { IconsProviderModule } from '../icons-provider.module';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { NzModalModule } from 'ng-zorro-antd/modal';
+import { NgxsFormPluginModule } from '@ngxs/form-plugin';
 
 
 const THIRD_MODULES: any[] = [
@@ -20,6 +22,7 @@ const THIRD_MODULES: any[] = [
   HttpClientModule,
   RouterOutlet,
   RouterLink,
+  NgxsFormPluginModule,
 ];
 const NG_ZORRO_MODULES: any[] = [
   NzLayoutModule,
@@ -31,6 +34,7 @@ const NG_ZORRO_MODULES: any[] = [
   NzFormModule,
   NzTableModule,
   NzDividerModule,
+  NzModalModule,
 ];
 const COMPONENTS: any[] = [];
 const DIRECTIVES: any[] = [];
